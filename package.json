@@ -1,0 +1,53 @@
+{
+    "author": "Igor Traskovetskyi",
+    "dependencies": {},
+    "keywords": [],
+    "name": "mmsmile",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Make Me Smile",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "BLUETOOTH",
+            "BATTERY",
+            "HOURLY_BEEP",
+            "SCREEN_COLOR",
+            "DND",
+            "DND_START",
+            "DND_END",
+            "HOUR_LEAD_ZERO",
+            "HUMIDITY",
+            "SHOW_HUMIDITY"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "933d7c1b-8cc8-438c-8c02-09b9eb266692",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "3.0.0"
+}
